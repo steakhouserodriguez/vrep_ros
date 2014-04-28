@@ -1,0 +1,29 @@
+<package>
+  <name>vrep_joy</name>
+  <version>3.1.1</version>
+  <description>vrep_joy</description>
+  <maintainer email="info@coppeliarobotics.com">formica</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/vrep_joy</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>formica</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>joy</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>joy</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>roscpp</test_depend> -->
+  <!-- <test_depend>joy</test_depend> -->
+
+</package>
